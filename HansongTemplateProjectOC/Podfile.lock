@@ -1,0 +1,16 @@
+PODS:
+  - OCHamcrest (7.1.2)
+
+DEPENDENCIES:
+  - OCHamcrest
+
+SPEC REPOS:
+  trunk:
+    - OCHamcrest
+
+SPEC CHECKSUMS:
+  OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
+
+PODFILE CHECKSUM: f376ac3711d7ffa86cfb2ee168271e975a4139db
+
+COCOAPODS: 1.10.0

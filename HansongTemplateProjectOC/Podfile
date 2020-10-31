@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HansongTemplateProjectOC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'OCHamcrest'
+  # Pods for HansongTemplateProjectOC
+
+  target 'HansongTemplateProjectOCTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'OCHamcrest'
+  end
+
+  target 'HansongTemplateProjectOCUITests' do
+    # Pods for testing
+    pod 'OCHamcrest'
+  end
+
+end

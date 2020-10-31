@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0646CF84AADF475F2E8788CC /* Pods_HansongTemplateProjectOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637B47D2068C39235B4B573C /* Pods_HansongTemplateProjectOC.framework */; };
+		416BDDB6254D5E5D00D56F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDB5254D5E5D00D56F57 /* AppDelegate.m */; };
+		416BDDB9254D5E5D00D56F57 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDB8254D5E5D00D56F57 /* SceneDelegate.m */; };
+		416BDDBC254D5E5D00D56F57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDBB254D5E5D00D56F57 /* ViewController.m */; };
+		416BDDBF254D5E5D00D56F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416BDDBD254D5E5D00D56F57 /* Main.storyboard */; };
+		416BDDC1254D5E5E00D56F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416BDDC0254D5E5E00D56F57 /* Assets.xcassets */; };
+		416BDDC4254D5E5E00D56F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416BDDC2254D5E5E00D56F57 /* LaunchScreen.storyboard */; };
+		416BDDC7254D5E5E00D56F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDC6254D5E5E00D56F57 /* main.m */; };
+		416BDDD1254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDD0254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m */; };
+		416BDDDC254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDDB254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.m */; };
+		416BDE69254D624700D56F57 /* README_OCHamcrest.md in Resources */ = {isa = PBXBuildFile; fileRef = 416BDE68254D624700D56F57 /* README_OCHamcrest.md */; };
+		416BDE6A254D624700D56F57 /* README_OCHamcrest.md in Resources */ = {isa = PBXBuildFile; fileRef = 416BDE68254D624700D56F57 /* README_OCHamcrest.md */; };
+		416BDE6B254D624700D56F57 /* README_OCHamcrest.md in Resources */ = {isa = PBXBuildFile; fileRef = 416BDE68254D624700D56F57 /* README_OCHamcrest.md */; };
+		416BDE73254D62D300D56F57 /* Example_Use_OCHamcrest.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDE72254D62D300D56F57 /* Example_Use_OCHamcrest.m */; };
+		416BDE79254D655200D56F57 /* IsGivenDayOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDE78254D655200D56F57 /* IsGivenDayOfWeek.m */; };
+		41EDF9EB254D7DB800FE1669 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDB8254D5E5D00D56F57 /* SceneDelegate.m */; };
+		99659917824A0128C2B26F65 /* Pods_HansongTemplateProjectOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1D530A727A4EAFC5DF12BA /* Pods_HansongTemplateProjectOCTests.framework */; };
+		E8BAA8A55D879549168FCEBB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB025C2351FEA71B25E5FB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416BDDCD254D5E5E00D56F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416BDDA9254D5E5D00D56F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416BDDB0254D5E5D00D56F57;
+			remoteInfo = HansongTemplateProjectOC;
+		};
+		416BDDD8254D5E5E00D56F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416BDDA9254D5E5D00D56F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416BDDB0254D5E5D00D56F57;
+			remoteInfo = HansongTemplateProjectOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B094F06EF52E1C5EF6C8AE4 /* Pods-HansongTemplateProjectOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOCTests.debug.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		316741033E1813E7C7C31C09 /* Pods-HansongTemplateProjectOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOCTests.release.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		416BDDB1254D5E5D00D56F57 /* HansongTemplateProjectOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HansongTemplateProjectOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BDDB4254D5E5D00D56F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416BDDB5254D5E5D00D56F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416BDDB7254D5E5D00D56F57 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		416BDDB8254D5E5D00D56F57 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		416BDDBA254D5E5D00D56F57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		416BDDBB254D5E5D00D56F57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		416BDDBE254D5E5D00D56F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		416BDDC0254D5E5E00D56F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416BDDC3254D5E5E00D56F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		416BDDC5254D5E5E00D56F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416BDDC6254D5E5E00D56F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416BDDCC254D5E5E00D56F57 /* HansongTemplateProjectOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansongTemplateProjectOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BDDD0254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HansongTemplateProjectOCTests.m; sourceTree = "<group>"; };
+		416BDDD2254D5E5E00D56F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416BDDD7254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansongTemplateProjectOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BDDDB254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HansongTemplateProjectOCUITests.m; sourceTree = "<group>"; };
+		416BDDDD254D5E5E00D56F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416BDE68254D624700D56F57 /* README_OCHamcrest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_OCHamcrest.md; sourceTree = "<group>"; };
+		416BDE72254D62D300D56F57 /* Example_Use_OCHamcrest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example_Use_OCHamcrest.m; sourceTree = "<group>"; };
+		416BDE77254D655200D56F57 /* IsGivenDayOfWeek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsGivenDayOfWeek.h; sourceTree = "<group>"; };
+		416BDE78254D655200D56F57 /* IsGivenDayOfWeek.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsGivenDayOfWeek.m; sourceTree = "<group>"; };
+		637B47D2068C39235B4B573C /* Pods_HansongTemplateProjectOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1D530A727A4EAFC5DF12BA /* Pods_HansongTemplateProjectOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAB025C2351FEA71B25E5FB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E6835C7D5CD90157EAB6C8 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.release.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98FD1B9E1176B1CE2B13319C /* Pods-HansongTemplateProjectOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOC.release.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOC/Pods-HansongTemplateProjectOC.release.xcconfig"; sourceTree = "<group>"; };
+		CF44FF399D356C4FA56DA4D3 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.debug.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC6AD38A54C46780C098D23 /* Pods-HansongTemplateProjectOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansongTemplateProjectOC.debug.xcconfig"; path = "Target Support Files/Pods-HansongTemplateProjectOC/Pods-HansongTemplateProjectOC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416BDDAE254D5E5D00D56F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0646CF84AADF475F2E8788CC /* Pods_HansongTemplateProjectOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDC9254D5E5E00D56F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99659917824A0128C2B26F65 /* Pods_HansongTemplateProjectOCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDD4254D5E5E00D56F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BAA8A55D879549168FCEBB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416BDDA8254D5E5D00D56F57 = {
+			isa = PBXGroup;
+			children = (
+				416BDE67254D621E00D56F57 /* UseDescription */,
+				416BDDB3254D5E5D00D56F57 /* HansongTemplateProjectOC */,
+				416BDDCF254D5E5E00D56F57 /* HansongTemplateProjectOCTests */,
+				416BDDDA254D5E5E00D56F57 /* HansongTemplateProjectOCUITests */,
+				416BDDB2254D5E5D00D56F57 /* Products */,
+				E8A1DB96BEF912DE541CE91B /* Pods */,
+				B4E0E345E123AB7DE3DDB8F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		416BDDB2254D5E5D00D56F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416BDDB1254D5E5D00D56F57 /* HansongTemplateProjectOC.app */,
+				416BDDCC254D5E5E00D56F57 /* HansongTemplateProjectOCTests.xctest */,
+				416BDDD7254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416BDDB3254D5E5D00D56F57 /* HansongTemplateProjectOC */ = {
+			isa = PBXGroup;
+			children = (
+				416BDDB4254D5E5D00D56F57 /* AppDelegate.h */,
+				416BDDB5254D5E5D00D56F57 /* AppDelegate.m */,
+				416BDDB7254D5E5D00D56F57 /* SceneDelegate.h */,
+				416BDDB8254D5E5D00D56F57 /* SceneDelegate.m */,
+				416BDDBA254D5E5D00D56F57 /* ViewController.h */,
+				416BDDBB254D5E5D00D56F57 /* ViewController.m */,
+				416BDDBD254D5E5D00D56F57 /* Main.storyboard */,
+				416BDDC0254D5E5E00D56F57 /* Assets.xcassets */,
+				416BDDC2254D5E5E00D56F57 /* LaunchScreen.storyboard */,
+				416BDDC5254D5E5E00D56F57 /* Info.plist */,
+				416BDDC6254D5E5E00D56F57 /* main.m */,
+			);
+			path = HansongTemplateProjectOC;
+			sourceTree = "<group>";
+		};
+		416BDDCF254D5E5E00D56F57 /* HansongTemplateProjectOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				416BDDD0254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m */,
+				416BDE72254D62D300D56F57 /* Example_Use_OCHamcrest.m */,
+				416BDE77254D655200D56F57 /* IsGivenDayOfWeek.h */,
+				416BDE78254D655200D56F57 /* IsGivenDayOfWeek.m */,
+				416BDDD2254D5E5E00D56F57 /* Info.plist */,
+			);
+			path = HansongTemplateProjectOCTests;
+			sourceTree = "<group>";
+		};
+		416BDDDA254D5E5E00D56F57 /* HansongTemplateProjectOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				416BDDDB254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.m */,
+				416BDDDD254D5E5E00D56F57 /* Info.plist */,
+			);
+			path = HansongTemplateProjectOCUITests;
+			sourceTree = "<group>";
+		};
+		416BDE67254D621E00D56F57 /* UseDescription */ = {
+			isa = PBXGroup;
+			children = (
+				416BDE68254D624700D56F57 /* README_OCHamcrest.md */,
+			);
+			path = UseDescription;
+			sourceTree = "<group>";
+		};
+		B4E0E345E123AB7DE3DDB8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637B47D2068C39235B4B573C /* Pods_HansongTemplateProjectOC.framework */,
+				8FAB025C2351FEA71B25E5FB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework */,
+				7D1D530A727A4EAFC5DF12BA /* Pods_HansongTemplateProjectOCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A1DB96BEF912DE541CE91B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6AD38A54C46780C098D23 /* Pods-HansongTemplateProjectOC.debug.xcconfig */,
+				98FD1B9E1176B1CE2B13319C /* Pods-HansongTemplateProjectOC.release.xcconfig */,
+				CF44FF399D356C4FA56DA4D3 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.debug.xcconfig */,
+				97E6835C7D5CD90157EAB6C8 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.release.xcconfig */,
+				0B094F06EF52E1C5EF6C8AE4 /* Pods-HansongTemplateProjectOCTests.debug.xcconfig */,
+				316741033E1813E7C7C31C09 /* Pods-HansongTemplateProjectOCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416BDDB0254D5E5D00D56F57 /* HansongTemplateProjectOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BDDE0254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOC" */;
+			buildPhases = (
+				500C89C4F037109509756CC2 /* [CP] Check Pods Manifest.lock */,
+				416BDDAD254D5E5D00D56F57 /* Sources */,
+				416BDDAE254D5E5D00D56F57 /* Frameworks */,
+				416BDDAF254D5E5D00D56F57 /* Resources */,
+				17DDEFBD270A729DD4081DF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HansongTemplateProjectOC;
+			productName = HansongTemplateProjectOC;
+			productReference = 416BDDB1254D5E5D00D56F57 /* HansongTemplateProjectOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416BDDCB254D5E5E00D56F57 /* HansongTemplateProjectOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BDDE3254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOCTests" */;
+			buildPhases = (
+				9881338533B740C11E62CDC1 /* [CP] Check Pods Manifest.lock */,
+				416BDDC8254D5E5E00D56F57 /* Sources */,
+				416BDDC9254D5E5E00D56F57 /* Frameworks */,
+				416BDDCA254D5E5E00D56F57 /* Resources */,
+				9BDD8251691D3E5BB548FDBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416BDDCE254D5E5E00D56F57 /* PBXTargetDependency */,
+			);
+			name = HansongTemplateProjectOCTests;
+			productName = HansongTemplateProjectOCTests;
+			productReference = 416BDDCC254D5E5E00D56F57 /* HansongTemplateProjectOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		416BDDD6254D5E5E00D56F57 /* HansongTemplateProjectOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BDDE6254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOCUITests" */;
+			buildPhases = (
+				C0ED5946E79D8652505E1FA5 /* [CP] Check Pods Manifest.lock */,
+				416BDDD3254D5E5E00D56F57 /* Sources */,
+				416BDDD4254D5E5E00D56F57 /* Frameworks */,
+				416BDDD5254D5E5E00D56F57 /* Resources */,
+				EC466C69F5E4D06FBB58E92D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416BDDD9254D5E5E00D56F57 /* PBXTargetDependency */,
+			);
+			name = HansongTemplateProjectOCUITests;
+			productName = HansongTemplateProjectOCUITests;
+			productReference = 416BDDD7254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416BDDA9254D5E5D00D56F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					416BDDB0254D5E5D00D56F57 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					416BDDCB254D5E5E00D56F57 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 416BDDB0254D5E5D00D56F57;
+					};
+					416BDDD6254D5E5E00D56F57 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 416BDDB0254D5E5D00D56F57;
+					};
+				};
+			};
+			buildConfigurationList = 416BDDAC254D5E5D00D56F57 /* Build configuration list for PBXProject "HansongTemplateProjectOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416BDDA8254D5E5D00D56F57;
+			productRefGroup = 416BDDB2254D5E5D00D56F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416BDDB0254D5E5D00D56F57 /* HansongTemplateProjectOC */,
+				416BDDCB254D5E5E00D56F57 /* HansongTemplateProjectOCTests */,
+				416BDDD6254D5E5E00D56F57 /* HansongTemplateProjectOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416BDDAF254D5E5D00D56F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDDC4254D5E5E00D56F57 /* LaunchScreen.storyboard in Resources */,
+				416BDE69254D624700D56F57 /* README_OCHamcrest.md in Resources */,
+				416BDDC1254D5E5E00D56F57 /* Assets.xcassets in Resources */,
+				416BDDBF254D5E5D00D56F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDCA254D5E5E00D56F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDE6A254D624700D56F57 /* README_OCHamcrest.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDD5254D5E5E00D56F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDE6B254D624700D56F57 /* README_OCHamcrest.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17DDEFBD270A729DD4081DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC/Pods-HansongTemplateProjectOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC/Pods-HansongTemplateProjectOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC/Pods-HansongTemplateProjectOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		500C89C4F037109509756CC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansongTemplateProjectOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9881338533B740C11E62CDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansongTemplateProjectOCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDD8251691D3E5BB548FDBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0ED5946E79D8652505E1FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC466C69F5E4D06FBB58E92D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests/Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416BDDAD254D5E5D00D56F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDDBC254D5E5D00D56F57 /* ViewController.m in Sources */,
+				416BDDB6254D5E5D00D56F57 /* AppDelegate.m in Sources */,
+				416BDDC7254D5E5E00D56F57 /* main.m in Sources */,
+				416BDDB9254D5E5D00D56F57 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDC8254D5E5E00D56F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDDD1254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m in Sources */,
+				416BDE73254D62D300D56F57 /* Example_Use_OCHamcrest.m in Sources */,
+				416BDE79254D655200D56F57 /* IsGivenDayOfWeek.m in Sources */,
+				41EDF9EB254D7DB800FE1669 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BDDD3254D5E5E00D56F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BDDDC254D5E5E00D56F57 /* HansongTemplateProjectOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416BDDCE254D5E5E00D56F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416BDDB0254D5E5D00D56F57 /* HansongTemplateProjectOC */;
+			targetProxy = 416BDDCD254D5E5E00D56F57 /* PBXContainerItemProxy */;
+		};
+		416BDDD9254D5E5E00D56F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416BDDB0254D5E5D00D56F57 /* HansongTemplateProjectOC */;
+			targetProxy = 416BDDD8254D5E5E00D56F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416BDDBD254D5E5D00D56F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416BDDBE254D5E5D00D56F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		416BDDC2254D5E5E00D56F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416BDDC3254D5E5E00D56F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416BDDDE254D5E5E00D56F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		416BDDDF254D5E5E00D56F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416BDDE1254D5E5E00D56F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC6AD38A54C46780C098D23 /* Pods-HansongTemplateProjectOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416BDDE2254D5E5E00D56F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FD1B9E1176B1CE2B13319C /* Pods-HansongTemplateProjectOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		416BDDE4254D5E5E00D56F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B094F06EF52E1C5EF6C8AE4 /* Pods-HansongTemplateProjectOCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansongTemplateProjectOC.app/HansongTemplateProjectOC";
+			};
+			name = Debug;
+		};
+		416BDDE5254D5E5E00D56F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316741033E1813E7C7C31C09 /* Pods-HansongTemplateProjectOCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansongTemplateProjectOC.app/HansongTemplateProjectOC";
+			};
+			name = Release;
+		};
+		416BDDE7254D5E5E00D56F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF44FF399D356C4FA56DA4D3 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansongTemplateProjectOC;
+			};
+			name = Debug;
+		};
+		416BDDE8254D5E5E00D56F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E6835C7D5CD90157EAB6C8 /* Pods-HansongTemplateProjectOC-HansongTemplateProjectOCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				INFOPLIST_FILE = HansongTemplateProjectOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.HansongTemplateProjectOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansongTemplateProjectOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416BDDAC254D5E5D00D56F57 /* Build configuration list for PBXProject "HansongTemplateProjectOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BDDDE254D5E5E00D56F57 /* Debug */,
+				416BDDDF254D5E5E00D56F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BDDE0254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BDDE1254D5E5E00D56F57 /* Debug */,
+				416BDDE2254D5E5E00D56F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BDDE3254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BDDE4254D5E5E00D56F57 /* Debug */,
+				416BDDE5254D5E5E00D56F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BDDE6254D5E5E00D56F57 /* Build configuration list for PBXNativeTarget "HansongTemplateProjectOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BDDE7254D5E5E00D56F57 /* Debug */,
+				416BDDE8254D5E5E00D56F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416BDDA9254D5E5D00D56F57 /* Project object */;
+}

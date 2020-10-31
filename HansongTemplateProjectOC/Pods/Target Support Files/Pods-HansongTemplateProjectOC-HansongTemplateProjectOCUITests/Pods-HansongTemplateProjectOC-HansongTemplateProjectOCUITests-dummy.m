@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests
+@end
