@@ -1,4 +1,10 @@
 ${PODS_ROOT}/Target Support Files/Pods-HansongTemplateProjectOCTests/Pods-HansongTemplateProjectOCTests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/OCHamcrest/OCHamcrest.framework
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework
+${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework
+${BUILT_PRODUCTS_DIR}/MKNetworkKit/MKNetworkKit.framework
+${BUILT_PRODUCTS_DIR}/Nocilla/Nocilla.framework
+${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
 ${BUILT_PRODUCTS_DIR}/Specta/Specta.framework

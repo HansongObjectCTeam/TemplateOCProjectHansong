@@ -1,24 +1,74 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - Expecta (1.0.6)
+  - Kiwi (3.0.0)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - Nocilla (0.11.0)
   - OCHamcrest (7.1.2)
+  - OHHTTPStubs (9.0.0):
+    - OHHTTPStubs/Default (= 9.0.0)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - Reachability (3.1.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
   - Expecta
+  - Kiwi (= 3.0.0)
+  - MKNetworkKit (= 0.87)
+  - Nocilla
   - OCHamcrest
+  - OHHTTPStubs
   - Specta
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Expecta
+    - Kiwi
+    - MKNetworkKit
+    - Nocilla
     - OCHamcrest
+    - OHHTTPStubs
+    - Reachability
     - Specta
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
+  Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
   OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 08689b8261a7f571e4b4a914a2050db23cc0ce81
+PODFILE CHECKSUM: b3019679f11a337340306c4fc0c9e22e9060c38b
 
 COCOAPODS: 1.10.0

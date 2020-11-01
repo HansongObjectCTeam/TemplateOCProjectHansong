@@ -34,6 +34,28 @@
 		41D9C6D1254E8447005CF2E4 /* DSLTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C6D0254E8447005CF2E4 /* DSLTest3.m */; };
 		41D9C6D9254E8731005CF2E4 /* FailingSpecTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C6D8254E8731005CF2E4 /* FailingSpecTest.m */; };
 		41D9C6DE254E8784005CF2E4 /* MiscTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C6DD254E8784005CF2E4 /* MiscTest.m */; };
+		41D9C952254E9E02005CF2E4 /* EXPExpect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C951254E9E02005CF2E4 /* EXPExpect+Test.m */; };
+		41D9C95E254E9EA0005CF2E4 /* Fixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C95D254E9EA0005CF2E4 /* Fixtures.m */; };
+		41D9C973254EA071005CF2E4 /* FakeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C957254E9E55005CF2E4 /* FakeTestCase.m */; };
+		41D9C97E254EA184005CF2E4 /* AsynchronousTestingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C97D254EA184005CF2E4 /* AsynchronousTestingTest.m */; };
+		41D9C9F7254EAF16005CF2E4 /* LSDataMatcherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9C9F6254EAF16005CF2E4 /* LSDataMatcherSpec.m */; };
+		41D9CB00254EBE9B005CF2E4 /* LSStringMatcherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CAFF254EBE9B005CF2E4 /* LSStringMatcherSpec.m */; };
+		41D9CB05254ECDBE005CF2E4 /* LSRegexMatcherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB04254ECDBE005CF2E4 /* LSRegexMatcherSpec.m */; };
+		41D9CB0B254ECF16005CF2E4 /* LSStubRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB0A254ECF16005CF2E4 /* LSStubRequestSpec.m */; };
+		41D9CB13254ECF25005CF2E4 /* LSStubResponseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB12254ECF25005CF2E4 /* LSStubResponseSpec.m */; };
+		41D9CB1B254ED83D005CF2E4 /* LSTestingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB1A254ED83D005CF2E4 /* LSTestingConnection.m */; };
+		41D9CB24254ED85B005CF2E4 /* LSHTTPRequestDiffSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB23254ED85B005CF2E4 /* LSHTTPRequestDiffSpec.m */; };
+		41D9CB2E254ED975005CF2E4 /* AFNetworkingStubbingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB2D254ED975005CF2E4 /* AFNetworkingStubbingSpec.m */; };
+		41D9CB37254EDAC6005CF2E4 /* NSURLSessionStubbingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB36254EDAC6005CF2E4 /* NSURLSessionStubbingSpec.m */; };
+		41D9CB40254EDBBC005CF2E4 /* LSHTTPRequestDSLRepresentationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB3F254EDBBC005CF2E4 /* LSHTTPRequestDSLRepresentationSpec.m */; };
+		41D9CB8D254EE3B6005CF2E4 /* OKNSURLConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB8C254EE3B6005CF2E4 /* OKNSURLConnectionTests.m */; };
+		41D9CB95254EE5E4005CF2E4 /* OKNSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB94254EE5E4005CF2E4 /* OKNSURLSessionTests.m */; };
+		41D9CB9A254EE751005CF2E4 /* OKTimingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB99254EE751005CF2E4 /* OKTimingTests.m */; };
+		41D9CB9F254EE856005CF2E4 /* OKOHPathHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CB9E254EE856005CF2E4 /* OKOHPathHelpersTests.m */; };
+		41D9CBA4254EE896005CF2E4 /* OKAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CBA3254EE896005CF2E4 /* OKAFNetworkingTests.m */; };
+		41D9CBA9254EEB5C005CF2E4 /* OKWithContentsOfURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CBA8254EEB5C005CF2E4 /* OKWithContentsOfURLTests.m */; };
+		41D9CBAE254EEBC1005CF2E4 /* OKNSURLConnectionDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CBAD254EEBC1005CF2E4 /* OKNSURLConnectionDelegateTests.m */; };
+		41D9CBB3254EEC87005CF2E4 /* OKNilValuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9CBB2254EEC87005CF2E4 /* OKNilValuesTests.m */; };
 		41EDF9EB254D7DB800FE1669 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BDDB8254D5E5D00D56F57 /* SceneDelegate.m */; };
 		99659917824A0128C2B26F65 /* Pods_HansongTemplateProjectOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1D530A727A4EAFC5DF12BA /* Pods_HansongTemplateProjectOCTests.framework */; };
 		E8BAA8A55D879549168FCEBB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB025C2351FEA71B25E5FB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework */; };
@@ -95,6 +117,34 @@
 		41D9C6D0254E8447005CF2E4 /* DSLTest3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLTest3.m; sourceTree = "<group>"; };
 		41D9C6D8254E8731005CF2E4 /* FailingSpecTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailingSpecTest.m; sourceTree = "<group>"; };
 		41D9C6DD254E8784005CF2E4 /* MiscTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiscTest.m; sourceTree = "<group>"; };
+		41D9C933254E9AAC005CF2E4 /* ReadmeUseExSpecta.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadmeUseExSpecta.md; sourceTree = "<group>"; };
+		41D9C950254E9E02005CF2E4 /* EXPExpect+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EXPExpect+Test.h"; sourceTree = "<group>"; };
+		41D9C951254E9E02005CF2E4 /* EXPExpect+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EXPExpect+Test.m"; sourceTree = "<group>"; };
+		41D9C956254E9E55005CF2E4 /* FakeTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeTestCase.h; sourceTree = "<group>"; };
+		41D9C957254E9E55005CF2E4 /* FakeTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeTestCase.m; sourceTree = "<group>"; };
+		41D9C95C254E9EA0005CF2E4 /* Fixtures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fixtures.h; sourceTree = "<group>"; };
+		41D9C95D254E9EA0005CF2E4 /* Fixtures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fixtures.m; sourceTree = "<group>"; };
+		41D9C97D254EA184005CF2E4 /* AsynchronousTestingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynchronousTestingTest.m; sourceTree = "<group>"; };
+		41D9C994254EAA17005CF2E4 /* UseNocillaReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UseNocillaReadme.md; sourceTree = "<group>"; };
+		41D9C9F6254EAF16005CF2E4 /* LSDataMatcherSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDataMatcherSpec.m; sourceTree = "<group>"; };
+		41D9CAFF254EBE9B005CF2E4 /* LSStringMatcherSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSStringMatcherSpec.m; sourceTree = "<group>"; };
+		41D9CB04254ECDBE005CF2E4 /* LSRegexMatcherSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSRegexMatcherSpec.m; sourceTree = "<group>"; };
+		41D9CB0A254ECF16005CF2E4 /* LSStubRequestSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSStubRequestSpec.m; sourceTree = "<group>"; };
+		41D9CB12254ECF25005CF2E4 /* LSStubResponseSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSStubResponseSpec.m; sourceTree = "<group>"; };
+		41D9CB19254ED83D005CF2E4 /* LSTestingConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTestingConnection.h; sourceTree = "<group>"; };
+		41D9CB1A254ED83D005CF2E4 /* LSTestingConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTestingConnection.m; sourceTree = "<group>"; };
+		41D9CB23254ED85B005CF2E4 /* LSHTTPRequestDiffSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHTTPRequestDiffSpec.m; sourceTree = "<group>"; };
+		41D9CB2D254ED975005CF2E4 /* AFNetworkingStubbingSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingStubbingSpec.m; sourceTree = "<group>"; };
+		41D9CB36254EDAC6005CF2E4 /* NSURLSessionStubbingSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionStubbingSpec.m; sourceTree = "<group>"; };
+		41D9CB3F254EDBBC005CF2E4 /* LSHTTPRequestDSLRepresentationSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHTTPRequestDSLRepresentationSpec.m; sourceTree = "<group>"; };
+		41D9CB8C254EE3B6005CF2E4 /* OKNSURLConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKNSURLConnectionTests.m; sourceTree = "<group>"; };
+		41D9CB94254EE5E4005CF2E4 /* OKNSURLSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKNSURLSessionTests.m; sourceTree = "<group>"; };
+		41D9CB99254EE751005CF2E4 /* OKTimingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKTimingTests.m; sourceTree = "<group>"; };
+		41D9CB9E254EE856005CF2E4 /* OKOHPathHelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKOHPathHelpersTests.m; sourceTree = "<group>"; };
+		41D9CBA3254EE896005CF2E4 /* OKAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKAFNetworkingTests.m; sourceTree = "<group>"; };
+		41D9CBA8254EEB5C005CF2E4 /* OKWithContentsOfURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKWithContentsOfURLTests.m; sourceTree = "<group>"; };
+		41D9CBAD254EEBC1005CF2E4 /* OKNSURLConnectionDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKNSURLConnectionDelegateTests.m; sourceTree = "<group>"; };
+		41D9CBB2254EEC87005CF2E4 /* OKNilValuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKNilValuesTests.m; sourceTree = "<group>"; };
 		637B47D2068C39235B4B573C /* Pods_HansongTemplateProjectOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1D530A727A4EAFC5DF12BA /* Pods_HansongTemplateProjectOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAB025C2351FEA71B25E5FB /* Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansongTemplateProjectOC_HansongTemplateProjectOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +226,17 @@
 		416BDDCF254D5E5E00D56F57 /* HansongTemplateProjectOCTests */ = {
 			isa = PBXGroup;
 			children = (
+				41D9CB8B254EE371005CF2E4 /* ExampleOHHTTPStubs */,
+				41D9C9F4254EAE87005CF2E4 /* ExampleNocilla */,
+				41D9C950254E9E02005CF2E4 /* EXPExpect+Test.h */,
+				41D9C951254E9E02005CF2E4 /* EXPExpect+Test.m */,
+				41D9C956254E9E55005CF2E4 /* FakeTestCase.h */,
+				41D9C957254E9E55005CF2E4 /* FakeTestCase.m */,
+				41D9C95C254E9EA0005CF2E4 /* Fixtures.h */,
+				41D9C95D254E9EA0005CF2E4 /* Fixtures.m */,
+				41182BE7254DA5F700A15D5F /* TestHelper.h */,
+				41182BE8254DA5F700A15D5F /* TestHelper.m */,
+				41D9C93B254E9CC4005CF2E4 /* ExmapleExSpecta */,
 				41D9C92F254E98D4005CF2E4 /* ExampleOCHamcrest */,
 				41D9C92B254E98A3005CF2E4 /* ExampleSpecta */,
 				416BDDD0254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m */,
@@ -198,6 +259,8 @@
 			children = (
 				416BDE68254D624700D56F57 /* README_OCHamcrest.md */,
 				41182BD4254DA42700A15D5F /* README_Specta.md */,
+				41D9C933254E9AAC005CF2E4 /* ReadmeUseExSpecta.md */,
+				41D9C994254EAA17005CF2E4 /* UseNocillaReadme.md */,
 			);
 			path = UseDescription;
 			sourceTree = "<group>";
@@ -216,8 +279,6 @@
 				41D9C6D0254E8447005CF2E4 /* DSLTest3.m */,
 				41D9C6D8254E8731005CF2E4 /* FailingSpecTest.m */,
 				41D9C6DD254E8784005CF2E4 /* MiscTest.m */,
-				41182BE7254DA5F700A15D5F /* TestHelper.h */,
-				41182BE8254DA5F700A15D5F /* TestHelper.m */,
 			);
 			path = ExampleSpecta;
 			sourceTree = "<group>";
@@ -230,6 +291,111 @@
 				416BDE78254D655200D56F57 /* IsGivenDayOfWeek.m */,
 			);
 			path = ExampleOCHamcrest;
+			sourceTree = "<group>";
+		};
+		41D9C93B254E9CC4005CF2E4 /* ExmapleExSpecta */ = {
+			isa = PBXGroup;
+			children = (
+				41D9C97D254EA184005CF2E4 /* AsynchronousTestingTest.m */,
+			);
+			path = ExmapleExSpecta;
+			sourceTree = "<group>";
+		};
+		41D9C9F4254EAE87005CF2E4 /* ExampleNocilla */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB3E254EDBB1005CF2E4 /* DSL */,
+				41D9CB2B254ED94A005CF2E4 /* Hooks */,
+				41D9CB22254ED84D005CF2E4 /* Diff */,
+				41D9CB18254ED7CC005CF2E4 /* Support */,
+				41D9CB09254ECF02005CF2E4 /* Stubs */,
+				41D9C9F5254EAEAF005CF2E4 /* Matchers */,
+			);
+			path = ExampleNocilla;
+			sourceTree = "<group>";
+		};
+		41D9C9F5254EAEAF005CF2E4 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				41D9C9F6254EAF16005CF2E4 /* LSDataMatcherSpec.m */,
+				41D9CAFF254EBE9B005CF2E4 /* LSStringMatcherSpec.m */,
+				41D9CB04254ECDBE005CF2E4 /* LSRegexMatcherSpec.m */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+		41D9CB09254ECF02005CF2E4 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB0A254ECF16005CF2E4 /* LSStubRequestSpec.m */,
+				41D9CB12254ECF25005CF2E4 /* LSStubResponseSpec.m */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		41D9CB18254ED7CC005CF2E4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB19254ED83D005CF2E4 /* LSTestingConnection.h */,
+				41D9CB1A254ED83D005CF2E4 /* LSTestingConnection.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		41D9CB22254ED84D005CF2E4 /* Diff */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB23254ED85B005CF2E4 /* LSHTTPRequestDiffSpec.m */,
+			);
+			path = Diff;
+			sourceTree = "<group>";
+		};
+		41D9CB2B254ED94A005CF2E4 /* Hooks */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB35254EDAB2005CF2E4 /* NSURLSession */,
+				41D9CB2C254ED956005CF2E4 /* NSURLRequest */,
+			);
+			path = Hooks;
+			sourceTree = "<group>";
+		};
+		41D9CB2C254ED956005CF2E4 /* NSURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB2D254ED975005CF2E4 /* AFNetworkingStubbingSpec.m */,
+			);
+			path = NSURLRequest;
+			sourceTree = "<group>";
+		};
+		41D9CB35254EDAB2005CF2E4 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB36254EDAC6005CF2E4 /* NSURLSessionStubbingSpec.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		41D9CB3E254EDBB1005CF2E4 /* DSL */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB3F254EDBBC005CF2E4 /* LSHTTPRequestDSLRepresentationSpec.m */,
+			);
+			path = DSL;
+			sourceTree = "<group>";
+		};
+		41D9CB8B254EE371005CF2E4 /* ExampleOHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				41D9CB8C254EE3B6005CF2E4 /* OKNSURLConnectionTests.m */,
+				41D9CB94254EE5E4005CF2E4 /* OKNSURLSessionTests.m */,
+				41D9CB99254EE751005CF2E4 /* OKTimingTests.m */,
+				41D9CB9E254EE856005CF2E4 /* OKOHPathHelpersTests.m */,
+				41D9CBA3254EE896005CF2E4 /* OKAFNetworkingTests.m */,
+				41D9CBA8254EEB5C005CF2E4 /* OKWithContentsOfURLTests.m */,
+				41D9CBAD254EEBC1005CF2E4 /* OKNSURLConnectionDelegateTests.m */,
+				41D9CBB2254EEC87005CF2E4 /* OKNilValuesTests.m */,
+			);
+			path = ExampleOHHTTPStubs;
 			sourceTree = "<group>";
 		};
 		B4E0E345E123AB7DE3DDB8F8 /* Frameworks */ = {
@@ -524,22 +690,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D9CBA9254EEB5C005CF2E4 /* OKWithContentsOfURLTests.m in Sources */,
 				416BDDD1254D5E5E00D56F57 /* HansongTemplateProjectOCTests.m in Sources */,
+				41D9CB1B254ED83D005CF2E4 /* LSTestingConnection.m in Sources */,
+				41D9CB8D254EE3B6005CF2E4 /* OKNSURLConnectionTests.m in Sources */,
+				41D9C952254E9E02005CF2E4 /* EXPExpect+Test.m in Sources */,
 				41D9C6DE254E8784005CF2E4 /* MiscTest.m in Sources */,
 				41D9C6C7254E82BA005CF2E4 /* DSLTest1.m in Sources */,
+				41D9CB05254ECDBE005CF2E4 /* LSRegexMatcherSpec.m in Sources */,
 				41D07068254E61010000FE9E /* AsyncSpecTest.m in Sources */,
 				416BDE73254D62D300D56F57 /* Example_Use_OCHamcrest.m in Sources */,
+				41D9CB37254EDAC6005CF2E4 /* NSURLSessionStubbingSpec.m in Sources */,
 				41D9C6BD254E8109005CF2E4 /* CompilationTest1.m in Sources */,
+				41D9CB40254EDBBC005CF2E4 /* LSHTTPRequestDSLRepresentationSpec.m in Sources */,
+				41D9C973254EA071005CF2E4 /* FakeTestCase.m in Sources */,
+				41D9CB24254ED85B005CF2E4 /* LSHTTPRequestDiffSpec.m in Sources */,
+				41D9CBAE254EEBC1005CF2E4 /* OKNSURLConnectionDelegateTests.m in Sources */,
 				41D9C6CC254E830A005CF2E4 /* DSLTest2.m in Sources */,
 				41D9C6B8254E7F99005CF2E4 /* AsyncSpecTimeoutTest.m in Sources */,
+				41D9C9F7254EAF16005CF2E4 /* LSDataMatcherSpec.m in Sources */,
+				41D9CB13254ECF25005CF2E4 /* LSStubResponseSpec.m in Sources */,
 				41D9C6D9254E8731005CF2E4 /* FailingSpecTest.m in Sources */,
+				41D9C95E254E9EA0005CF2E4 /* Fixtures.m in Sources */,
+				41D9CB9A254EE751005CF2E4 /* OKTimingTests.m in Sources */,
+				41D9CB2E254ED975005CF2E4 /* AFNetworkingStubbingSpec.m in Sources */,
+				41D9CB95254EE5E4005CF2E4 /* OKNSURLSessionTests.m in Sources */,
 				41D9C6D1254E8447005CF2E4 /* DSLTest3.m in Sources */,
 				416BDE79254D655200D56F57 /* IsGivenDayOfWeek.m in Sources */,
+				41D9CBA4254EE896005CF2E4 /* OKAFNetworkingTests.m in Sources */,
 				41EDF9EB254D7DB800FE1669 /* SceneDelegate.m in Sources */,
 				41182BE9254DA5F700A15D5F /* TestHelper.m in Sources */,
+				41D9CB9F254EE856005CF2E4 /* OKOHPathHelpersTests.m in Sources */,
 				41D9C6AE254E68F1005CF2E4 /* AsyncSpecTest2.m in Sources */,
 				41D9C6C2254E81FE005CF2E4 /* CompilationTest2.m in Sources */,
+				41D9CBB3254EEC87005CF2E4 /* OKNilValuesTests.m in Sources */,
+				41D9C97E254EA184005CF2E4 /* AsynchronousTestingTest.m in Sources */,
 				41D9C6B3254E7F33005CF2E4 /* AsyncSpecTest3.m in Sources */,
+				41D9CB00254EBE9B005CF2E4 /* LSStringMatcherSpec.m in Sources */,
+				41D9CB0B254ECF16005CF2E4 /* LSStubRequestSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +894,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HansongTemplateProjectOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -725,6 +914,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VXQZZYW38;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HansongTemplateProjectOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

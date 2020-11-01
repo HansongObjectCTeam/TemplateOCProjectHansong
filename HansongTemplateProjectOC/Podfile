@@ -13,13 +13,30 @@ target 'HansongTemplateProjectOC' do
     pod 'OCHamcrest'
     pod 'Specta'
     pod 'Expecta'
+    pod 'Nocilla'
+    pod "Kiwi",'3.0.0'
+#    pod 'CocoaHTTPServer'
+    pod 'AFNetworking','4.0.1'
+    pod 'MKNetworkKit','0.87'
+    pod 'OHHTTPStubs'
   end
 
   target 'HansongTemplateProjectOCUITests' do
-    # Pods for testing
-    pod 'OCHamcrest'
-    pod 'Specta'
-    pod 'Expecta'
+#    # Pods for testing
+#    pod 'OCHamcrest'
+#    pod 'Specta'
+#    pod 'Expecta'
+#    pod 'Nocilla'
+#    pod "Kiwi",'3.0.0'
+#    pod 'CocoaHTTPServer'
+#    pod 'AFNetworking','4.0.1'
+#    pod 'MKNetworkKit','0.87'
+#    Installing AFNetworking (4.0.1)
+#    Installing CocoaAsyncSocket (7.6.4)
+#    Installing CocoaHTTPServer (2.3)
+#    Installing CocoaLumberjack (3.7.0)
+#    Installing MKNetworkKit (0.87)
+#    Installing Reachability (3.1.1)
   end
 
 end
