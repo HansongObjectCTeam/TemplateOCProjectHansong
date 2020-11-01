@@ -11,11 +11,15 @@ target 'HansongTemplateProjectOC' do
     inherit! :search_paths
     # Pods for testing
     pod 'OCHamcrest'
+    pod 'Specta'
+    pod 'Expecta'
   end
 
   target 'HansongTemplateProjectOCUITests' do
     # Pods for testing
     pod 'OCHamcrest'
+    pod 'Specta'
+    pod 'Expecta'
   end
 
 end

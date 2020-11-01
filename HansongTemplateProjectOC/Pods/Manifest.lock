@@ -1,16 +1,24 @@
 PODS:
+  - Expecta (1.0.6)
   - OCHamcrest (7.1.2)
+  - Specta (1.0.7)
 
 DEPENDENCIES:
+  - Expecta
   - OCHamcrest
+  - Specta
 
 SPEC REPOS:
   trunk:
+    - Expecta
     - OCHamcrest
+    - Specta
 
 SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: f376ac3711d7ffa86cfb2ee168271e975a4139db
+PODFILE CHECKSUM: 08689b8261a7f571e4b4a914a2050db23cc0ce81
 
 COCOAPODS: 1.10.0
